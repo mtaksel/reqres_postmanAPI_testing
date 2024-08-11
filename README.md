@@ -29,8 +29,8 @@ List Users
 Request: GET https://reqres.in/api/users?page=2
 
 Response:
-
-json
+```
+""json
 
 {
     "page": 2,
@@ -48,7 +48,7 @@ json
         ...
     ]
 }
-
+```
 Create a New User
 
 Request: POST https://reqres.in/api/users
@@ -63,7 +63,7 @@ json
 }
 
 Response:
-
+```
 json
 
 {
@@ -72,7 +72,7 @@ json
     "id": "123",
     "createdAt": "2023-08-11T12:00:00.000Z"
 }
-
+```
 How to Use
 
     Import the Collection: Download the collection file and import it into Postman.
