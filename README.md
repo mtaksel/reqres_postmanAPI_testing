@@ -30,7 +30,7 @@ Request: GET https://reqres.in/api/users?page=2
 
 Response:
 ```
-""json
+json
 
 {
     "page": 2,
@@ -45,7 +45,6 @@ Response:
             "last_name": "Lawson",
             "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
         },
-        ...
     ]
 }
 ```
@@ -54,14 +53,14 @@ Create a New User
 Request: POST https://reqres.in/api/users
 
 Request Body:
-
+```
 json
 
 {
     "name": "morpheus",
     "job": "leader"
 }
-
+```
 Response:
 ```
 json
