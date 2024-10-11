@@ -1,7 +1,6 @@
 Reqres API Postman Collection
 
 This project contains a Postman collection that interacts with the Reqres API, a simple RESTful service providing a wide range of responses for testing purposes. The collection includes various endpoints to demonstrate basic CRUD operations, including user creation, retrieval, updating, and deletion, as well as user registration and login functionalities.
-Collection Overview
 
 This Postman collection contains the following requests:
 
